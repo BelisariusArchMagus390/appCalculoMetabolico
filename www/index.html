@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h3>Cálculo de Metabolismo Basal</h3>
+
+    <h5>Preencha os campos abaixo:</h5>
+
+    Nome: <input id="nome" ></input>
+
+    Sexo: <select class="linha">
+      <option>Selecione o seu sexo</option>
+      <option id="opMasc">Masculino</option>
+      <option id="opFem">Feminino</option>
+    </select>
+
+    <h5></h5 class="linha">
+
+    <div class=""></div>
+      <input type="radio" class="linha">Sedentários (pouco ou nenhum exercício)</input>
+    </div>
+
+    <div class=""></div>
+      <input type="radio" class="linha">Levemente ativo (exercício leve 1 a 3 dias por semana)</input>
+    </div>
+
+    <div class=""></div>
+      <input type="radio" class="linha">Moderadamente ativo (exercício moderado, faz esportes 3 a 5 dias por semana)</input>
+    </div>
+
+    <div class=""></div>
+      <input type="radio" class="linha">Altamente ativo (exercício pesado de 5 a 6 dias por semana)</input>
+    </div>
+    
+    <div class=""></div>
+    <input type="radio" class="linha">Extremamente ativo (exercício pesado diariamente e até 2 vezes por dia)</input>
+    </div>
+
+    <input type="submit" style="margin-top:10px;" class="btn btn-success linha"></input>
+  </div>
+</body>
+</html>
