@@ -26,14 +26,14 @@
 
   </head>
 
-  <body>
-    <center>
+  <body class="bg-primary">
+    <center >
       <h4>Cálculo de Metabolismo Basal</h4>
     </center>
 
     <h5>Preencha os campos abaixo:</h5>
 
-    <div id="box" class=" border border-light bg-dark">
+    <div id="box" class=" border border-dark bg-light text-dark rounded p-10">
 
       <div class="row">
          <select id="sexo" class="linha btn btn-light text-dark ">
@@ -78,14 +78,14 @@
       </div>
 
       <div class="row">
-        <button id="botao" class="linha btn btn-outline-success" type="button" onclick="taxaAtividade()">Confirmar</button>
+        <button id="botao" class="linha btn btn-success shadow" type="button" onclick="taxaAtividade()">Confirmar</button>
       </div>
 
     </div>
     <br>
 
     <center>
-      <div id="total" class="mb-2 form-control text-white bg-dark border"></div>
+      <div id="total" class="mb-2 form-control text-dark bg-light border"></div>
     </center>
 
   </body>

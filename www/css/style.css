@@ -9,21 +9,22 @@
 }
 
 h4{
-  background-color:#8C1717 ;
+  background-color:aliceblue ;
   border: 10px;
-  border-color: black;
+  
 }
 
 body{
   background: crimson;
-  color:white;
+
 
 
 }
 #box{
   width:300px;
   margin-left:9%;
-  height: 90%;
+  height: 96%;
+  padding:10px;
 
 }
 #botao{
@@ -31,13 +32,11 @@ body{
   margin-left:37%;
 }
 #peso,#altura,#idade,#sexo{
-  width:60%;
+  width:65%;
 margin-left:6%;
   
 }
-#sexo{
-  margin-top:4%;
-  }
+
 
 
 
