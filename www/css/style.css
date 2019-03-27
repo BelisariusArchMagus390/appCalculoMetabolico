@@ -16,8 +16,6 @@ h4{
 
 body{
   background: crimson;
-  font-family: bold;
-
   color:white;
 
 }
@@ -29,5 +27,8 @@ body{
 #botao{
   margin-top:4%;
   margin-left:20%;
+}
+#peso,#altura,#idade{
+  width:40%;
 }
 
