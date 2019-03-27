@@ -1,3 +1,35 @@
 .linha{
-  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#botao{
+  margin-left: 37%;
+}
+
+#total{
+  font-size: 20px;
+}
+
+h4{
+  background-color: #e5e35b;
+  border: 10px;
+  border-color: black;
+  min-height:;
+  min-width:;
+}
+
+body{
+  background: #babc47;
+}
+
+#box{
+  font-size: 12px;
+  border: 2px solid black;
+  width: 85%;
+  height: 80%;
+  margin-left: 8%;
+}
+
+.edit{
+  display: flex;
 }
