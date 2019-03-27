@@ -28,8 +28,14 @@ body{
   width: 85%;
   height: 80%;
   margin-left: 8%;
+  border-radius: 10px;
 }
 
 .edit{
   display: flex;
+}
+
+input{
+  border-radius: 5px;
+  margin-left: 10%;
 }
