@@ -17,10 +17,12 @@ h4{
 body{
   background: crimson;
   color:white;
+  
 
 }
 #box{
-  width:400px;
+  width:300px;
+  margin-left:9%;
   height: 90%;
   border:black 4px solid;
 }
@@ -30,5 +32,17 @@ body{
 }
 #peso,#altura,#idade{
   width:40%;
+  margin-left:2%;
+  
+}
+
+#peso{
+  margin-left:4%;
+}
+#idade{
+  margin-left:3%;
+}
+#sexo{
+  margin-top:4%;
 }
 
