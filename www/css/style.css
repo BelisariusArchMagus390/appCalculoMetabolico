@@ -2,38 +2,32 @@
   margin-bottom: 20px;
 }
 
-#botao{
-  margin-left: 37%;
-}
+
 
 #total{
   font-size: 20px;
 }
 
 h4{
-  background-color: #e5e35b;
+  background-color:#8C1717 ;
   border: 10px;
   border-color: black;
 }
 
 body{
-  background: #babc47;
-}
+  background: crimson;
+  font-family: bold;
 
+  color:white;
+
+}
 #box{
-  font-size: 12px;
-  border: 2px solid black;
-  width: 85%;
-  height: 80%;
-  margin-left: 8%;
-  border-radius: 10px;
+  width:400px;
+  height: 90%;
+  border:black 4px solid;
+}
+#botao{
+  margin-top:4%;
+  margin-left:20%;
 }
 
-.edit{
-  display: flex;
-}
-
-input{
-  border-radius: 5px;
-  margin-left: 10%;
-}
